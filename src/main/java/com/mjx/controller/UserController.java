@@ -20,7 +20,7 @@ public class UserController {
 
     @Resource
     private UserService userService;
-    //注册学生
+    //注册学生 修改了点
     @RequestMapping(value="/addStudent")
     public ModelAndView student(UserClass user){
         //调用service处理
